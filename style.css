@@ -1,0 +1,17 @@
+body {
+  font-family: Garamond;
+  font-size: 12px;
+  background: #614385;
+background: -webkit-linear-gradient(to right, #516395, #614385);
+background: linear-gradient(to right, #516395, #614385);
+}
+
+header {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.github {
+  height: 50px;
+  text-align: center;
+}
