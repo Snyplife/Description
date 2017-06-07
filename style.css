@@ -1,17 +1,65 @@
 body {
   font-family: Garamond;
-  font-size: 12px;
-  background: #614385;
-background: -webkit-linear-gradient(to right, #516395, #614385);
-background: linear-gradient(to right, #516395, #614385);
+  font-size: 15px;
+  background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
 }
 
-header {
-  width: 30px;
-  border-radius: 10px;
+p:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+ .pp {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Varela', sans-serif;
+
 }
 
 .github {
   height: 50px;
   text-align: center;
+}
+
+.twitter {
+  height: 50px;
+  text-align: center;
+}
+
+.moi {
+  height: 300px;
+  border-radius: 50%;
+  border: 10px;
+  border-color: white;
+
+}
+
+.tableau {
+  border-color: white;
+  border-collapse: collapse;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.padding {
+  margin: 30px;
+}
+
+Div {
+  width: 500px;
+  margin: 0 auto;
 }
